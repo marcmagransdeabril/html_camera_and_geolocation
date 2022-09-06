@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<script>
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  var x = document.getElementById("demo");
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+</head>
+
+<body>
+  <button onclick="getLocation()">Where Am I?</button>
+  <p id="demo"></p>
+
+  <label for="environment">Capture environment:</label>
+  <br>
+  <input
+    type="file"
+    id="environment"
+    capture="environment"
+    accept="video/*"
+  >
+  <br><br>
+  <label for="user">Capture user:</label>
+  <br>
+  <input
+    type="file"
+    id="user"
+    capture="user"
+    accept="image/*"
+  >
+</body>
+
+
+</html>
