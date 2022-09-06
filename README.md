@@ -7,5 +7,6 @@ I'm prety ignorant on all the involved subjects (i.e. mobile apps and frameworkd
 # Browser Support
 
 camera support per browser: https://caniuse.com/html-media-capture
+
 geolocation support per browser: https://caniuse.com/?search=geolocation
 
