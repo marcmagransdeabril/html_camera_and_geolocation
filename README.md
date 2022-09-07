@@ -4,7 +4,7 @@ _"Why do you use mobile native applications instead of simple HTML?"_ I asked [o
 
 I'm prety ignorant on all the involved subjects (i.e. mobile apps and frameworkds, camera and video APIs, geolocation API to name a few). A month after this conversation I read in hackernews the solution: https://news.ycombinator.com/item?id=32738501
 
-It turns out that it is actually possible and simple, too. Check out the [index.html](https://github.com/marcmagransdeabril/html_camera_and_geolocation/blob/main/index.html).
+It turns out that it is actually possible and simple, too. Check out the [index.html](https://marcmagransdeabril.github.io/html_camera_and_geolocation/).
 
 # Can I reduce the latency of the first capture?
 
